@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --heading-font:'Roboto',serif;
+    --body-font:'Open Sans',serif;
+    --headers-color:steelblue;
+    --name-color:yellow;
+    --link-color:steelblue;
+    --hovered-link-color:grey;
+}
+*{
+    margin: 0;
+}
+h1{
+    background-color: var(--headers-color);
+    padding: 20px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--heading-font);
+}
+nav a{
+    color: var(--link-color);
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--hovered-link-color);
+}
+.name{
+    color: var(--name-color);
+}
+.profileImage{
+    float: right;
+    height: 120px;
+    width: auto;
+    padding: 20px;
+}
+.flagImage{
+    float: left;
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+h2{
+    font-family: var(--heading-font);
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--headers-color);
+}
+h3{
+    margin-top: 20px;
+    font-family: var(--heading-font);
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.card, .image{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 20px 20px;
+}
+.card p{
+    padding: 20px 20px 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.image a{
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color: var(--headers-color);
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+}
+figcaption{
+    font-style: italic;
+    font-size: 12px;
+    font-family: var(--heading-font);
+}
+#lastModified{
+    color: var(--name-color);
+}

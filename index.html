@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 - Lewis Ombaka</title>
+    <meta name="Author" content="Lewis Ombaka">
+    <meta name="Description" content="This is a brief description,,,">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Lewis Ombaka</title>
+    <script src="script/getdates.js"></script>
 </head>
 <body>
-    <h1>WDD131</h1>
+    <header>
+        <h1>WDD131: Dynamic Web Fundamentals - <span class="name">Lewis Ombaka</span></h1>
+        <nav>
+            <a href="www.linkedin.com/in/lewis-ombaka-5032991b9">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng#:~:text=27%20Wherefore%2C%20men,like%20unto%20himself.">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/lewiso.jpg" alt="profile" class="profileImage" width="200">
+            <p>
+                Hello, I'm Lewis Ombaka, an enthusiastic IT professional based in Nairobi, Kenya. With a deep passion for technology and innovation, I thrive on exploring new developments in the IT world and finding practical solutions to everyday challenges.
+                <br>
+                Outside of my professional endeavors, I'm an avid football enthusiast and acting aficionado. Football allows me to stay active and connected with my competitive side, while acting fuels my creativity and love for storytelling.
+                <br>
+                Let's connect on LinkedIn to explore opportunities in IT, share insights, or discuss our mutual passions. I'm always excited to network with like-minded individuals who share a passion for technology and personal growth.
+            </p>
+            <h3>Nairobi, Kenya</h3>
+            <figure class="flagImage">
+                <img src="images/kenyanFlag.jpg" alt="flag"  width="200">
+                <figcaption>Oficcial flag of Kenya</figcaption>
+            </figure>
+            <p>
+                Nairobi, the vibrant capital city of Kenya, captivates with its blend of modernity and rich cultural heritage.
+                <br>
+                From its bustling markets and iconic skyscrapers to its lush green spaces and wildlife sanctuaries, Nairobi offers a unique experience at every corner. It's a melting pot of cultures, where traditional Maasai beadwork meets contemporary art galleries and international cuisine.
+                <br>
+                Nairobi is not just a city; it's a gateway to Kenya's breathtaking landscapes, including the world-famous Maasai Mara and Amboseli National Park. Here, wildlife enthusiasts can witness the Big Five and marvel at the annual wildebeest migration.
+            </p>
+        </section>
+        <section class="image">
+            <h2>Web Dev Resources</h2>
+            <a href="#">freeCodeCamp</a>
+            <a href="#">W3 Schools</a>
+            <a href="#">Pexels</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 💻 Lewis Ochieng' Ombaka 💻 Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
