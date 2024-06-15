@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    background-color: black;
+    padding: 12px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    background-color: grey;
+    margin-bottom: 0;
+}
+main{
+    display: grid;
+}
+.main {
+    background-color: beige;
+    grid-column: 1/3;
+    padding: 2rem;
+}
+body{
+    background-color: white;
+}
+.aside {
+    background-color: white;
+    grid-column: 3/4;
+    padding: 2rem;
+}
+
+footer {
+    background-color: grey;
+    padding: 2rem;
+    text-align: center;
+}
