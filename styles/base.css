@@ -11,6 +11,10 @@
 *{
     margin: 0;
 }
+body{
+    max-width: 98%;
+    margin: 0 auto;
+}
 h1{
     background-color: var(--headers-color);
     padding: 20px;
