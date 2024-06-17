@@ -32,7 +32,7 @@ nav a{
     color: var(--link-color);
     text-decoration: none;
 }
-nav a:hover{
+a:hover{
     color: var(--hovered-link-color);
 }
 .name{
