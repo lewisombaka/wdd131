@@ -75,6 +75,7 @@ h3{
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    font-family: var(--body-font);
 }
 .image a{
     display: flex;
