@@ -1,0 +1,26 @@
+@media (min-width: 740px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 0 30px slategray;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: auto;
+        position: static;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav a {
+        text-align: center;
+        display: block; /* change state in small view */
+        flex: 1 1 100%;
+    }
+}
