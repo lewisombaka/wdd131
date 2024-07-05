@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kenya</title>
+        <meta name="author" content="Lewis Ochieng' Ombaka">
+        <meta name="description" content="This is a site about temples of the Church of Jesus Christ of Latter-Day-Saints">
+        <link rel="stylesheet" href="styles/place.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+<body>
+    <header>
+        <h1>Kenya</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width:1000px )" srcset="images/placeImages/Kenya_Large.webp">
+            <source media="(min-width:500px )" srcset="images/placeImages/Kenya_Medium.webp">
+            <img src="images/placeImages/Kenya_Hero_Small.webp" alt="Kenya">
+        </picture>
+       <div class="content">
+        <div class="data">
+            <h2>Data</h2>
+            <dl class="info">
+                <section><dt>Area:</dt> <dd>580,367 sq km</dd></section>
+                <section><dt>Population:</dt> <dd>54,367,231</dd></section>
+                <section><dt>Capital:</dt> <dd>Nairobi</dd></section>
+                <section><dt>Languages:</dt> <dd>English, Swahili</dd></section>
+                <section><dt>Currency:</dt> <dd>Kenya Shiling</dd></section>
+                <section><dt>Time Zone:</dt> <dd>GMT+3</dd></section>
+                <section><dt>Calling Code:</dt> <dd>+254</dd></section>
+                <section><dt>Internet TLD:</dt> <dd>.ke</dd></section>
+            </dl>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <picture>
+                <source media="(min-width: 500px)" srcset="">
+                <img src="images/placeImages/1530391_weather_clouds_sun_sunny_icon.svg" alt="Sunny_Icon" class="icon">
+            </picture>
+            <dl class="info">
+                <section><dt>Temperature:</dt> <dd><span id="tempreature">37</span>&deg;C</dd></section>
+                <section><dt>Conditions:</dt> <dd>Sunny</dd></section>
+                <section><dt>Wind:</dt> <dd><span id="windspeed">15</span>km/h</dd></section>
+                <section><dt>Wind Chill:</dt> <dd><span id="windChillElement"></span></dd></section>
+            </dl>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 💻 Lewis Ochieng' Ombaka 💻 Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
