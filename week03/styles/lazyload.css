@@ -1,0 +1,36 @@
+h1, h2, footer{
+    text-align: center;
+    font-family: 'Roboto', serif;
+}
+h2,footer{
+    color: yellow;
+}
+main{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', serif;
+}
+img{
+    width: 100%;
+    background-color: black;
+    animation: fadeIn 15s;
+    box-shadow: 0 1px 1px yellow;
+}
+figcaption{
+    font-size: x-small;
+    font-style: italic;
+    font-weight: lighter;
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: brightness(0);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
