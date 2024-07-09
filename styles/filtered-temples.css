@@ -135,3 +135,10 @@ div {
 h1.hide {
     display: none;
 }
+figure{
+    /* border: 2px solid var(--shadow-color); */
+    margin: 12px;
+    padding: 12px;
+    background-color: #15151b;
+    box-shadow: 2px 2px 2px var(--shadow-color);
+}
