@@ -39,6 +39,10 @@ h1 {
     font-size: 2rem;
 }
 
+figcaption{ 
+    font-weight: bold;
+}
+
 h2 {
     text-align: center;
 }
