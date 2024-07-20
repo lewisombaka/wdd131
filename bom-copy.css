@@ -1,0 +1,84 @@
+/* Apply margin and padding reset to all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body to take up the full height of the viewport,
+   center its content, and use a specific font */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Acme, Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 1.5rem;
+}
+
+/* Style the main container */
+main {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style input and button elements */
+input,
+button {
+    padding: 0.5rem;
+}
+
+/* Add margin to the button */
+button {
+    margin: 0.5rem;
+}
+
+/* Style elements with class 'delete' */
+.delete {
+    width: fit-content;
+}
+
+/* Style the container of input elements */
+.input {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Style the container of the list */
+.list {
+    padding: 0.5rem;
+}
+
+/* Remove default list styling and add margin to the list */
+ul {
+    margin: 1rem;
+    list-style: none;
+}
+
+/* Style list items to align items and justify content space between */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media query for screens with a minimum width of 32.5em (520px) */
+@media only screen and (min-width: 32.5em) {
+    /* Increase font size of the main heading */
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Set a fixed width for the main container */
+    main {
+        width: 320px;
+    }
+}

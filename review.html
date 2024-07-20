@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lewis Ombaka">
+    <meta name="description" content="This is a brief description about me and where I am from. You will learn about my interests in life and what I specialize in. In general, this is all about me">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>WDD 131: Dynamic Web Fundamentals - Lewis Ombaka</title>
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Thank you for your review!</h1>
+        <p><span class="label">You have submitted </span><span class="visits"> </span> Reviews</p>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 💻 Lewis Ochieng' Ombaka 💻 Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script>
+        const visitsDisplay = document.querySelector(".visits");
+
+        let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+
+        if (numVisits !== 0) {
+            visitsDisplay.textContent = numVisits;
+        } 
+        else {
+            visitsDisplay.textContent = 0;
+        }
+
+        numVisits++;
+
+        localStorage.setItem("numVisits-ls", numVisits);
+    </script>
+</body>
+</html>
