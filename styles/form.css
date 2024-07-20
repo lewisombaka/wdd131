@@ -70,3 +70,7 @@ footer {
 textarea, input{
     outline: none;
 }
+.italic{
+    font-style: italic;
+    font-size: small;
+}
