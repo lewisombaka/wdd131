@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Kenya Statistics",
             link: "https://lewisombaka.github.io/wdd131/place.html",
             image: {
-                webp: "images/Place.webp",
+                webp: "images/place.webp",
                 jpg: "images/Place.jpg",
                 alt: "Kenya Statistics"
             },
