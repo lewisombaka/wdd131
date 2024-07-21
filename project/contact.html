@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <meta name="author" content="Lewis Ochieng' Ombaka">
+    <meta name="description" content="This is a site about the way I can be contacted">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="thankyou.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="someone@example.com" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Tell me something..." required></textarea>
+
+                <button type="submit">Talk to Me</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> 💻 Lewis Ochieng' Ombaka 💻 My Portfolio</p>
+    </footer>
+    <script src="script/scripts.js"></script>
+</body>
+</html>
