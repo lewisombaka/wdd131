@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday Animation</title>
+    <title>Lewis' Birthday</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="lewiso.jpg" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <h1>It's my Day!</h1>
+    <header>
+        <marquee><h1>!It's My Birthday!</h1></marquee>
+        <marquee direction="right">1:59:37 PM on Tuesday, July 27, 1999</marquee>
+    </header>
+    <main>
+        <section id="about">
+            <img src="lewis.jpg" alt="lewis" width="92px">
+            <h2>About Me</h2>
+            <p>Hello! I'm excited to share my special day with you.I was born in Moi Teaching And Referral Hospital by my Loving Parents(Charity & Edward).Fifth born in a family of Seven.</p>
+        </section>
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>I’m into coding, playing video games, and computer repair. I also enjoy Watching Tech and Innovation Movies which keeps my mind engaged, stimulated, and growing</p>
+        </section>
+        <section id="studies">
+            <h2>School</h2>
+            <p>Currently a Freshman studying BSc Software Engineering at Brigham Young University-I and learning BSc Computer Science at University of the People</p>
+        </section>
+        <section id="talent">
+            <h2>My Talent</h2>
+            <p>One of my hidden talents is that I can solve a 3x3 Rubik's cube in under a minute and 4x4 Rubik's cube in under 10 minutes!</p>
+        </section>
+    </main>
+    <div class="celebrate-container">
         <p>Click the button to start the celebration!</p>
-        <button onclick="startAnimation()">Celebrate With Me</button>
+        <button onclick="startAnimation()">Celebrate!</button>
         <div class="balloons" id="balloons">
             <div class="balloon"></div>
             <div class="balloon"></div>
@@ -19,7 +42,14 @@
         </div>
         <div class="confetti" id="confetti"></div>
     </div>
-
+    <footer>
+        <p>&copy; 2024 💻 Lewis Ochieng' Ombaka 💻 All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/lewisombaka" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/lewisombaka" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lewis-ombaka-5032991b9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
